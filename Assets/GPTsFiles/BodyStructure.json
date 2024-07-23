@@ -1,0 +1,37 @@
+{
+    "Hips": {
+      "LeftLegHipJoint": {
+        "LeftKnee": {
+          "LeftAnkle": {}
+        }
+      },
+      "RightLegHipJoint": {
+        "RightKnee": {
+          "RightAnkle": {}
+        }
+      },
+      "LowerBack": {
+        "MiddleBack": {
+          "UpperBack": {
+            "LeftScapula": {
+              "LeftShoulder": {
+                "LeftElbow": {
+                  "LeftWrist": {}
+                }
+              }
+            },
+            "Neck": {
+              "Head": {}
+            },
+            "RightScapula": {
+              "RightShoulder": {
+                "RightElbow": {
+                  "RightWrist": {}
+        }}}}}}}}
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }

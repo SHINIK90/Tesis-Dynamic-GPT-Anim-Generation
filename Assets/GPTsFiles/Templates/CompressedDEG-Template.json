@@ -1,0 +1,425 @@
+{
+    "name": "Animation name",
+    "keyframes": [
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Hips can rotate in the x axis from -90 to 90 degrees facing fordward where 0 would be standing straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Hips can rotate in the z axis from -90 to 90 degrees fallig sideways to the left where 0 would be standing straight
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Hips can rotate in the x axis from -90 to 90 degrees facing fordward where 0 would be standing straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Hips can rotate in the z axis from -90 to 90 degrees fallig sideways to the left where 0 would be standing straight
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftLegHipJoint",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised and 0 would be standing straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards and 0 would be standing straight,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 135 would be opening the leg sideways as much as possible and 180 would be standing straight
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised and 0 would be standing straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards and 0 would be standing straight,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 135 would be opening the leg sideways as much as possible and 180 would be standing straight
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftKnee",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely and 0 would be the leg straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely and 0 would be the leg straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftKnee",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely and 0 would be the leg straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely and 0 would be the leg straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Knee can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "RightKnee",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely and 0 would be the leg straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely and 0 would be the leg straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftAnkle",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Ankle can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised and 60 would be the foot straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Ankle can rotate in the y axis from -30 to 30 degrees where -30 points the foot inward and 0 would point the foot straight fordward,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Ankle can rotate in the z axis from -20 to 20 degrees where 20 would be the foot rotating inward and -20 would keep the foot flat on the ground
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Ankle can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised and 60 would be the foot straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Ankle can rotate in the y axis from -30 to 30 degrees where -30 points the foot inward and 0 would point the foot straight fordward,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Ankle can rotate in the z axis from -20 to 20 degrees where 20 would be the foot rotating inward and -20 would keep the foot flat on the ground
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "RightAnkle",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Ankle can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised and 60 would be the foot straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Ankle can rotate in the y axis from -30 to 30 degrees where 30 points the foot inward and 0 would point the foot straight fordward,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Ankle can rotate in the z axis from -20 to 20 degrees where -20 would be the foot rotating inward and 20 would keep the foot flat on the ground
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Ankle can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised and 60 would be the foot straight,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Ankle can rotate in the y axis from -30 to 30 degrees where 30 points the foot inward and 0 would point the foot straight fordward,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Ankle can rotate in the z axis from -20 to 20 degrees where -20 would be the foot rotating inward and 20 would keep the foot flat on the ground
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Scapula can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Scapula can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Scapula can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Scapula can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Scapula can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Scapula can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Shoulder can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Shoulder can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Shoulder can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Shoulder can not rotate in the z axis meaning it stays at 0 degrees
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Shoulder can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Shoulder can not rotate in the z axis meaning it stays at 0 degrees
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Elbow can not rotate in the x axis meaning it stays at 0 degrees,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Elbow can not rotate in the x axis meaning it stays at 0 degrees,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Elbow can not rotate in the x axis meaning it stays at 0 degrees,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Elbow can not rotate in the x axis meaning it stays at 0 degrees,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Wrist can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Wrist can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Wrist can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Wrist can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Wrist can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Wrist can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side
+                ],...and so on for as many keyframes as needed
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                ...and so on for as many keyframes as needed
+            ],
+            "value": [
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Wrist can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Wrist can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Wrist can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side
+                ],
+                [
+                    Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Wrist can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+                    Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Wrist can not rotate in the y axis meaning it stays at 0 degrees,
+                    Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Wrist can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side
+                ],...and so on for as many keyframes as needed
+            ]
+        }
+    ]
+}

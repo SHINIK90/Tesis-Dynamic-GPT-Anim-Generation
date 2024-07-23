@@ -1,0 +1,114 @@
+{
+    "animationName": "LiftingKnee",
+    "keyframes": [
+      {
+        "path": "Hips",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [-5.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "LowerBack",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [1.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "MiddleBack",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [1.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "UpperBack",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [1.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "Neck",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [1.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "Head",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [1.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "LeftLegHipJoint",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [30.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "LeftKnee",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [-45.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      },
+      {
+        "path": "LeftAnkle",
+        "propertyName": "m_LocalRotation",
+        "time": [
+          0.00, 0.33, 0.67
+        ],
+        "value": [
+          [0.000, 0.000, 0.000],
+          [15.000, 0.000, 0.000],
+          [0.000, 0.000, 0.000]
+        ]
+      }
+    ]
+  }
+  

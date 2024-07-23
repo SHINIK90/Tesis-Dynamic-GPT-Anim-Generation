@@ -1,0 +1,57 @@
+{
+    "animationName": "StandingTurnHead",
+    "keyframes": [
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    -30.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    30.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    -30.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    30.000,
+                    0.000
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+Standing still and turning the head from left to right.
+Stretching by reaching both arms straight up. This movement involves the shoulders and elbows, with minimal involvement of other body parts.
+Kicking a ball with a simple forward kick with one leg. This involves the hips, knees, and some torso balance.
+Pointing at an object. This involves extending one arm and pointing with the hand, primarily using the shoulder and wrist joints.
+Moving from a standing position to sitting on a chair and then standing back up. This involves movements of the hips, knees, and back.
+Walking, this requires coordinated leg movements, arm swings, and maintaining balance.
+Standing still and waving the hand to someone. This involves primarily the shoulder, elbow, and wrist joints.
+Claping hands together repeatedly. This involves the arms moving towards each other and back to the initial position, mainly focusing on the elbow and shoulder joints.
+Performing a basic dance routine, which could involve steps like a two-step or a box step. This requires rhythm and coordination between various body parts.
+Adjusting Glasses by pushing up the glasses with one hand. This involves subtle hand movements, shoulder and elbow movements, and light touching of the face.
+Nodding head up and down.
+Shrugging shoulders up and down.
+Swinging arms forward and backward while standing still.
+Raising one leg to the side and lowering it back.
+Twisting the torso left and right while keeping the lower body still.
+Stepping forward with one leg and then returning to the original position.
+Raising one arm to wave and then lowering it.
+Marching in place with coordinated arm swings.
+Leaning forward slightly and then returning to an upright position.
+Stepping to the side and then returning to the original position.
+Bending the knees slightly and then straightening them.
+Lifting one arm to touch the opposite shoulder and then lowering it.
+Rolling the shoulders in a circular motion.
+Swinging one leg forward and backward while keeping the upper body still.
+Turning the upper body to look behind and then returning to face forward.
+Lifting both arms to shoulder height and then lowering them.
+Swinging the arms across the body in a crossing motion.
+Stepping backward with one leg and then returning to the original position.
+Raising both arms to form a "T" shape and then lowering them.
+Bending sideways at the waist and then straightening up.
+Twisting the neck left and right.
+Stepping up with one leg as if stepping onto a stair and then lowering it.
+Lifting one knee up towards the chest and then lowering it.
+Rolling the head in a circular motion.
+Swinging one arm in a circular motion.
+Leaning back slightly and then returning to an upright position.
+Bringing both arms up to form a "Y" shape and then lowering them.
+March like a soldier with arm movements and exagerated leg raising.
+Covering eyes with both hands
+
+shake hands
+do the wave with the arms
+cross arms
+
+lift both arms up
+superman pose
+tarzan chest hitting
+squats
+dumbells
+stretching arms
+
+
+identtify best format (stability(code) and coherence(human eval))
+test how often the best format generates coherent animations
+future work: ask got to explain what an animation does from a json file
+
+New list for FullDEG
+
+Walking
+Kneeling
+sitting
+pointing at something
+Waving hand
+
+REFINED
+
+A person walking. Involve coordinated leg movements, arm swings, and balance maintenance. The hips, knees, and ankles move with each step, and the arms swing naturally opposite to the legs.
+A person kneeling to pick something up from the floor and standing back up. Involve bending knees and hips, leaning forward slightly, reaching with one hand, and then straightening to stand.
+A person moving from standing to sitting on a chair and back up. Involve bending the knees and hips while keeping the back straight. The person lowers to sit and then stands by pushing up with the legs.
+A person pointing at an object. Extend one arm forward, using the shoulder, elbow, and wrist. The rest of the body remains still.
+A person standing and waving their hand. Raise one arm and move the hand side to side, involving the shoulder, elbow, and wrist. The rest of the body stays still.

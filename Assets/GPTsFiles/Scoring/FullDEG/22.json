@@ -1,0 +1,1085 @@
+{
+    "animationName": "LiftArmToTouchOppositeShoulderAndLower",
+    "keyframes": [
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 62.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 61.6
+                },
+                {
+                    "time": 1.00,
+                    "value": 62.0
+                }
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 270.6
+                },
+                {
+                    "time": 0.50,
+                    "value": 269.1
+                },
+                {
+                    "time": 1.00,
+                    "value": 270.6
+                }
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 178.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 177.9
+                },
+                {
+                    "time": 1.00,
+                    "value": 178.0
+                }
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 38.6
+                },
+                {
+                    "time": 0.50,
+                    "value": 47.5
+                },
+                {
+                    "time": 1.00,
+                    "value": 38.6
+                }
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 29.2
+                },
+                {
+                    "time": 0.50,
+                    "value": 27.8
+                },
+                {
+                    "time": 1.00,
+                    "value": 29.2
+                }
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 55.9
+                },
+                {
+                    "time": 0.50,
+                    "value": 55.9
+                },
+                {
+                    "time": 1.00,
+                    "value": 55.9
+                }
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.4
+                },
+                {
+                    "time": 0.50,
+                    "value": 1.4
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.4
+                }
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.9
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.8
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.9
+                }
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 88.3
+                },
+                {
+                    "time": 0.50,
+                    "value": 86.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 88.3
+                }
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 351.3
+                },
+                {
+                    "time": 0.50,
+                    "value": 356.9
+                },
+                {
+                    "time": 1.00,
+                    "value": 351.3
+                }
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 347.2
+                },
+                {
+                    "time": 0.50,
+                    "value": 343.8
+                },
+                {
+                    "time": 1.00,
+                    "value": 347.2
+                }
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 16.7
+                },
+                {
+                    "time": 0.50,
+                    "value": 17.5
+                },
+                {
+                    "time": 1.00,
+                    "value": 16.7
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "MiddleBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "UpperBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 62.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 61.6
+                },
+                {
+                    "time": 1.00,
+                    "value": 62.0
+                }
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 270.6
+                },
+                {
+                    "time": 0.50,
+                    "value": 269.1
+                },
+                {
+                    "time": 1.00,
+                    "value": 270.6
+                }
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 178.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 177.9
+                },
+                {
+                    "time": 1.00,
+                    "value": 178.0
+                }
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 38.6
+                },
+                {
+                    "time": 0.50,
+                    "value": 47.5
+                },
+                {
+                    "time": 1.00,
+                    "value": 38.6
+                }
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 29.2
+                },
+                {
+                    "time": 0.50,
+                    "value": 27.8
+                },
+                {
+                    "time": 1.00,
+                    "value": 29.2
+                }
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 55.9
+                },
+                {
+                    "time": 0.50,
+                    "value": 55.9
+                },
+                {
+                    "time": 1.00,
+                    "value": 55.9
+                }
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.4
+                },
+                {
+                    "time": 0.50,
+                    "value": 1.4
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.4
+                }
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.9
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.8
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.9
+                }
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 88.3
+                },
+                {
+                    "time": 0.50,
+                    "value": 86.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 88.3
+                }
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 351.3
+                },
+                {
+                    "time": 0.50,
+                    "value": 356.9
+                },
+                {
+                    "time": 1.00,
+                    "value": 351.3
+                }
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 347.2
+                },
+                {
+                    "time": 0.50,
+                    "value": 343.8
+                },
+                {
+                    "time": 1.00,
+                    "value": 347.2
+                }
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 16.7
+                },
+                {
+                    "time": 0.50,
+                    "value": 17.5
+                },
+                {
+                    "time": 1.00,
+                    "value": 16.7
+                }
+            ]
+        }
+    ]
+}

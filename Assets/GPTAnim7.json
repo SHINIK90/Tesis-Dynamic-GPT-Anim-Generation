@@ -1,0 +1,106 @@
+{
+  "name": "Kicking a Ball",
+  "keyframes": [
+    {
+      "path": "mixamorig:Hips",
+      "propertyName": "m_LocalPosition",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000],
+        [0.050, 0.010, 0.000],
+        [0.100, 0.000, 0.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.000, 0.025, 0.000, 0.999],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.500, 0.000, 0.000, 0.866],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [-0.707, 0.000, 0.000, 0.707],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.259, 0.000, 0.000, 0.966],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:Spine",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.000, -0.100, 0.000, 0.995],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.000, -0.050, 0.000, 0.999],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.000, -0.025, 0.000, 0.999],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [-0.100, 0.000, 0.000, 0.995],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    },
+    {
+      "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+      "propertyName": "m_LocalRotation",
+      "time": [0.00, 0.50, 1.00],
+      "value": [
+        [0.000, 0.000, 0.000, 1.000],
+        [0.100, 0.000, 0.000, 0.995],
+        [0.000, 0.000, 0.000, 1.000]
+      ]
+    }
+  ]
+}
+

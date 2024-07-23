@@ -1,0 +1,187 @@
+{
+    "animationName": "BendingElbowsToBringHandsToShoulders",
+    "keyframes": [
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    180.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    90.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    180.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    90.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    10.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    10.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    10.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    10.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                0.00,
+                0.50,
+                1.00
+            ],
+            "value": [
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    5.000
+                ],
+                [
+                    0.000,
+                    0.000,
+                    0.000
+                ]
+            ]
+        }
+    ]
+}

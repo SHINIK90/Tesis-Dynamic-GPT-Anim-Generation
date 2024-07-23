@@ -1,0 +1,1499 @@
+{
+    "name": "Animation name",
+    "keyframes": [
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                },
+                {
+                    "time": float value with 3 decimals,
+                    "value": float value with 4 decimals
+                }
+            ]
+        }
+    ]
+}

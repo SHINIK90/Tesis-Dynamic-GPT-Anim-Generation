@@ -1,0 +1,82 @@
+{
+    "animationName": "JumpingAnimation",
+    "keyframes": [
+      {
+        "path": "mixamorig:Hips",
+        "propertyName": "m_LocalPosition.y",
+        "curve": [
+          {"time": 0.000, "value": 0.000},
+          {"time": 0.250, "value": 0.750},
+          {"time": 0.500, "value": 1.500},
+          {"time": 0.750, "value": 0.750},
+          {"time": 1.000, "value": 0.000}
+        ]
+      },
+      {
+        "path": "mixamorig:Hips",
+        "propertyName": "m_LocalPosition.z",
+        "curve": [
+          {"time": 0.000, "value": 0.000},
+          {"time": 0.250, "value": -0.250},
+          {"time": 0.500, "value": -0.500},
+          {"time": 0.750, "value": -0.250},
+          {"time": 1.000, "value": 0.000}
+        ]
+      },
+      {
+        "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+        "propertyName": "m_LocalRotation.x",
+        "curve": [
+          {"time": 0.000, "value": 0.000},
+          {"time": 0.250, "value": 0.250},
+          {"time": 0.500, "value": 0.500},
+          {"time": 0.750, "value": 0.250},
+          {"time": 1.000, "value": 0.000}
+        ]
+      },
+      {
+        "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+        "propertyName": "m_LocalRotation.x",
+        "curve": [
+          {"time": 0.000, "value": -0.1745},
+          {"time": 0.250, "value": 0.3491},
+          {"time": 0.500, "value": -0.1745},
+          {"time": 0.750, "value": -0.1745},
+          {"time": 1.000, "value": -0.1745}
+        ]
+      },
+      {
+        "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+        "propertyName": "m_LocalRotation.x",
+        "curve": [
+          {"time": 0.000, "value": -0.1745},
+          {"time": 0.250, "value": 0.3491},
+          {"time": 0.500, "value": -0.1745},
+          {"time": 0.750, "value": -0.1745},
+          {"time": 1.000, "value": -0.1745}
+        ]
+      },
+      {
+        "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+        "propertyName": "m_LocalRotation.x",
+        "curve": [
+          {"time": 0.000, "value": 0.000},
+          {"time": 0.250, "value": -0.1745},
+          {"time": 0.500, "value": 0.1745},
+          {"time": 0.750, "value": 0.1745},
+          {"time": 1.000, "value": 0.000}
+        ]
+      },
+      {
+        "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+        "propertyName": "m_LocalRotation.x",
+        "curve": [
+          {"time": 0.000, "value": 0.000},
+          {"time": 0.250, "value": -0.1745},
+          {"time": 0.500, "value": 0.1745},
+          {"time": 0.750, "value": 0.1745},
+          {"time": 1.000, "value": 0.000}
+        ]
+      }
+    ]
+}

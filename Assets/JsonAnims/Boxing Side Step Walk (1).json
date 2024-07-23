@@ -1,0 +1,3295 @@
+{
+    "name": "Boxing Side Step Walk (1)",
+    "keyframes": [
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0031
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0264
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.0353
+                },
+                {
+                    "time": 0.750,
+                    "value": -0.0121
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0031
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.2780
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.2666
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.2291
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.2431
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.2780
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0015
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0081
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0099
+                },
+                {
+                    "time": 0.750,
+                    "value": -0.0316
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0015
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9606
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.9634
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.9727
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.9694
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9606
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0014
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.0034
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0013
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0147
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0147
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0148
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0038
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0080
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0080
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9999
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.9999
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9999
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0297
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.0390
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0297
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0301
+                },
+                {
+                    "time": 0.542,
+                    "value": -0.0207
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0301
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0074
+                },
+                {
+                    "time": 0.542,
+                    "value": -0.0065
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0098
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9991
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.9990
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9991
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0297
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.0390
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0296
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0300
+                },
+                {
+                    "time": 0.542,
+                    "value": -0.0207
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0301
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0076
+                },
+                {
+                    "time": 0.542,
+                    "value": -0.0062
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0101
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9991
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.9990
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9991
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0898
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.0851
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.0886
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0970
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0898
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0150
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.0178
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.0169
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0133
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0150
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0314
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.0278
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.0324
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0367
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0314
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9954
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.9958
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.9954
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.9945
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9954
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0567
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.0360
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.0364
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.0544
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0617
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0567
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.1418
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.1363
+                },
+                {
+                    "time": 0.458,
+                    "value": -0.1342
+                },
+                {
+                    "time": 0.667,
+                    "value": -0.1321
+                },
+                {
+                    "time": 0.917,
+                    "value": -0.1417
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.1418
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0045
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.0038
+                },
+                {
+                    "time": 0.458,
+                    "value": -0.0003
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.0070
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0130
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0045
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9883
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.9900
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.9903
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.9897
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.9879
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9883
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.6115
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.6144
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.6158
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.6329
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.6537
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.6467
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.6222
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.6112
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.6115
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.4003
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.3956
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.3949
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.3781
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.3497
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.3635
+                },
+                {
+                    "time": 0.917,
+                    "value": -0.3911
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.4018
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.4003
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.4972
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.5054
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.5024
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.4985
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.4836
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.5026
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.4805
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.4905
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.4972
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.4676
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.4589
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.4610
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.4560
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.4654
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.4439
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.4785
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.4736
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.4676
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.4554
+                },
+                {
+                    "time": 0.083,
+                    "value": 0.4405
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.4459
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.4197
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.4151
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.4172
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.4366
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.4449
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.4574
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.4647
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.4554
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.1947
+                },
+                {
+                    "time": 0.083,
+                    "value": 0.1914
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.1922
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.2143
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.2194
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.2155
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.1819
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.2080
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.2112
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.1977
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.1947
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.1480
+                },
+                {
+                    "time": 0.083,
+                    "value": -0.1643
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.1649
+                },
+                {
+                    "time": 0.292,
+                    "value": -0.1779
+                },
+                {
+                    "time": 0.458,
+                    "value": -0.1488
+                },
+                {
+                    "time": 0.542,
+                    "value": -0.1355
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.1312
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.1092
+                },
+                {
+                    "time": 0.917,
+                    "value": -0.1157
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.1337
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.1480
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.8560
+                },
+                {
+                    "time": 0.083,
+                    "value": 0.8616
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.8585
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.8639
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.8703
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.8724
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.8713
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.8642
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.8561
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.8527
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.8560
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0193
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.0177
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.0200
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.0217
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0198
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0017
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.0011
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.0028
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.0026
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0020
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9017
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.8869
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.9054
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.9144
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9017
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.4320
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.4617
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.4240
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.4043
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.4320
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0217
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.0189
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.0264
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0185
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.0247
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0167
+                },
+                {
+                    "time": 0.917,
+                    "value": -0.0208
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0229
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0217
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0333
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.0567
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.0420
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0331
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.0673
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0437
+                },
+                {
+                    "time": 0.917,
+                    "value": -0.0298
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0282
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0333
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0082
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.0325
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0206
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.0493
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.0410
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.0347
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0186
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.0032
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0082
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9992
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.9977
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.9986
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.9981
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.9966
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.9983
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.9992
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.9993
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9992
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.6006
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.5989
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.5963
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.6092
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.6055
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.3812
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.3832
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.3836
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.3745
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.3811
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.5920
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.5924
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.5945
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.5907
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.5869
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.3788
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.3788
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.3792
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.3738
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.3790
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.2314
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.2472
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.2282
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.2201
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.2154
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.2265
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0534
+                },
+                {
+                    "time": 0.292,
+                    "value": -0.0564
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.0557
+                },
+                {
+                    "time": 0.667,
+                    "value": -0.0416
+                },
+                {
+                    "time": 0.917,
+                    "value": -0.0493
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0442
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.5219
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.5204
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.5215
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.5131
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.5248
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.5201
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.8193
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.8154
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.8203
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.8286
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.8221
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.8223
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0163
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.0163
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.0163
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.0163
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0163
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0027
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.0026
+                },
+                {
+                    "time": 0.708,
+                    "value": -0.0026
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0026
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0027
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.7713
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.7736
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.7728
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.7740
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.7713
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.6363
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.6334
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.6345
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.6329
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.6363
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0887
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.0875
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.0882
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.1040
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.1003
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0962
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0938
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0938
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.2670
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.2628
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.2606
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.2755
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.2868
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.2859
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.2876
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.2876
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0040
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.0001
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.0017
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.0115
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.0381
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0423
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0334
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0334
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9596
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.9609
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.9614
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.9556
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.9520
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.9525
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.9526
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9526
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0905
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.0999
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.1015
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.0787
+                },
+                {
+                    "time": 0.750,
+                    "value": -0.0754
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0965
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0983
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0979
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.2389
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.2328
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.2286
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.2281
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.2619
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.2448
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.2296
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.2347
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9619
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.9603
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.9567
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.9588
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.9546
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.9597
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.9646
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.9634
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0970
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.1171
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.1489
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.1498
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.1203
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.0989
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.0848
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.0853
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.3068
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.2848
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.2848
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.2884
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.2683
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.2809
+                },
+                {
+                    "time": 0.708,
+                    "value": -0.3233
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.2664
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.2238
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.2732
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.3072
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0894
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.0889
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0924
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.0923
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.0917
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.1005
+                },
+                {
+                    "time": 0.708,
+                    "value": -0.1041
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.0927
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0830
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0905
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0900
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0097
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.0125
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0297
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.0373
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.0519
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.0559
+                },
+                {
+                    "time": 0.708,
+                    "value": -0.0401
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.0056
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.0066
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0128
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0161
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9475
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.9544
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.9537
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.9523
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.9575
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.9528
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.9397
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.9594
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.9711
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.9576
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9473
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.5542
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.5692
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.5700
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.5626
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.5255
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.4503
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.4093
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.3752
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.3876
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.3960
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.4001
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.4153
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.4595
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.4992
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.5360
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.5364
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0279
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.0026
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.0027
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.0006
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.0049
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.0058
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.0144
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.0225
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.0097
+                },
+                {
+                    "time": 0.750,
+                    "value": -0.0020
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.0030
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.0121
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.0074
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0256
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.0312
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0267
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0582
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.0717
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.1486
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.1641
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.1753
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.1254
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.0929
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.0685
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.0818
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.1257
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.1755
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.1714
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.1080
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.0710
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.0631
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0588
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.8299
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.8191
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.8081
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.8103
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.8325
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.8840
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.9076
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.9241
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.9181
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.9096
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.8995
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.8933
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.8815
+                },
+                {
+                    "time": 0.917,
+                    "value": 0.8632
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.8413
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.8415
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.2865
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.2839
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.2865
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.3465
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.3720
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.3883
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.3119
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.2798
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.3440
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.3441
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.3441
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0020
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.0067
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.0115
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.0243
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.0330
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.0641
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.0183
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.0011
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0137
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0061
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0019
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0006
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.0008
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.0014
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.0007
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.0028
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.0082
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.0020
+                },
+                {
+                    "time": 0.750,
+                    "value": -0.0003
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0082
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0057
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0007
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9581
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.9588
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.9580
+                },
+                {
+                    "time": 0.542,
+                    "value": 0.9377
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.9277
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.9193
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.9499
+                },
+                {
+                    "time": 0.750,
+                    "value": 0.9601
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.9388
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.9389
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9389
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.1378
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.1415
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.1385
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.1402
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.1608
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.1415
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.1367
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0348
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.0508
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0642
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.0302
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.0101
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0251
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0265
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9811
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.9736
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.9722
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.9731
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.9705
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.9801
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9814
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.1314
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.1716
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.1774
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.1804
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.1792
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.1368
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.1320
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.2554
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.3716
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.3590
+                },
+                {
+                    "time": 0.292,
+                    "value": -0.2897
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.2402
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.2337
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.2439
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.2627
+                },
+                {
+                    "time": 0.667,
+                    "value": -0.2492
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.2343
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.2315
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0747
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.0737
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.0771
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.0700
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.0258
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.0284
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.0666
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.0747
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.0737
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.0715
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0713
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0366
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.0260
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.0101
+                },
+                {
+                    "time": 0.292,
+                    "value": -0.0075
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.0114
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.0182
+                },
+                {
+                    "time": 0.500,
+                    "value": -0.0236
+                },
+                {
+                    "time": 0.625,
+                    "value": -0.0354
+                },
+                {
+                    "time": 0.667,
+                    "value": -0.0336
+                },
+                {
+                    "time": 0.875,
+                    "value": -0.0293
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0295
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9633
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.9251
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.9301
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.9545
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.9703
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.9717
+                },
+                {
+                    "time": 0.500,
+                    "value": 0.9672
+                },
+                {
+                    "time": 0.625,
+                    "value": 0.9613
+                },
+                {
+                    "time": 0.667,
+                    "value": 0.9651
+                },
+                {
+                    "time": 0.875,
+                    "value": 0.9691
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9698
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.6699
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.5611
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.5292
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.5331
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.5515
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.5698
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.6114
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.6307
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.6777
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.6676
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0798
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.0282
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.0014
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0009
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.0308
+                },
+                {
+                    "time": 0.292,
+                    "value": -0.0618
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0773
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.1132
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.1287
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.1277
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0272
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.1286
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.1488
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.1338
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.0652
+                },
+                {
+                    "time": 0.292,
+                    "value": -0.0051
+                },
+                {
+                    "time": 0.375,
+                    "value": -0.0127
+                },
+                {
+                    "time": 0.417,
+                    "value": -0.0349
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.0696
+                },
+                {
+                    "time": 0.833,
+                    "value": -0.0713
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.7377
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.8172
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.8354
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.8354
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.8311
+                },
+                {
+                    "time": 0.292,
+                    "value": 0.8194
+                },
+                {
+                    "time": 0.375,
+                    "value": 0.7874
+                },
+                {
+                    "time": 0.417,
+                    "value": 0.7669
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.7206
+                },
+                {
+                    "time": 0.833,
+                    "value": 0.7300
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.3382
+                },
+                {
+                    "time": 0.083,
+                    "value": 0.4368
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.3525
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.3128
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.3290
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.3217
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.3196
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": -0.0057
+                },
+                {
+                    "time": 0.083,
+                    "value": -0.0056
+                },
+                {
+                    "time": 0.167,
+                    "value": -0.0044
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.0031
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.0097
+                },
+                {
+                    "time": 0.458,
+                    "value": -0.0029
+                },
+                {
+                    "time": 1.000,
+                    "value": -0.0057
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0018
+                },
+                {
+                    "time": 0.083,
+                    "value": 0.0122
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.0066
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0029
+                },
+                {
+                    "time": 0.333,
+                    "value": -0.0017
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.0013
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0017
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.9411
+                },
+                {
+                    "time": 0.083,
+                    "value": 0.8994
+                },
+                {
+                    "time": 0.167,
+                    "value": 0.9358
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.9498
+                },
+                {
+                    "time": 0.333,
+                    "value": 0.9443
+                },
+                {
+                    "time": 0.458,
+                    "value": 0.9468
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.9475
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition.x",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0023
+                },
+                {
+                    "time": 0.042,
+                    "value": -0.0078
+                },
+                {
+                    "time": 0.125,
+                    "value": -0.0279
+                },
+                {
+                    "time": 0.208,
+                    "value": -0.0383
+                },
+                {
+                    "time": 0.250,
+                    "value": -0.0394
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.0338
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.0506
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.0461
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.0112
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0023
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition.y",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.8867
+                },
+                {
+                    "time": 0.042,
+                    "value": 0.8890
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.8986
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.9037
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.9034
+                },
+                {
+                    "time": 0.583,
+                    "value": 0.8755
+                },
+                {
+                    "time": 0.708,
+                    "value": 0.8959
+                },
+                {
+                    "time": 0.792,
+                    "value": 0.9047
+                },
+                {
+                    "time": 0.958,
+                    "value": 0.8879
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.8867
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0022
+                },
+                {
+                    "time": 0.042,
+                    "value": 0.0194
+                },
+                {
+                    "time": 0.125,
+                    "value": 0.0450
+                },
+                {
+                    "time": 0.208,
+                    "value": 0.0545
+                },
+                {
+                    "time": 0.250,
+                    "value": 0.0552
+                },
+                {
+                    "time": 0.583,
+                    "value": -0.0271
+                },
+                {
+                    "time": 0.708,
+                    "value": -0.0504
+                },
+                {
+                    "time": 0.792,
+                    "value": -0.0548
+                },
+                {
+                    "time": 0.958,
+                    "value": -0.0119
+                },
+                {
+                    "time": 1.000,
+                    "value": 0.0022
+                }
+            ]
+        }
+    ]
+}

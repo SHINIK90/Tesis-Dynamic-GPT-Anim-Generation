@@ -1,0 +1,293 @@
+{
+    "animationName": "BendAndStraightenKnees",
+    "keyframes": [
+        {
+            "path": "LeftKnee",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": -0.3
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftKnee",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftKnee",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftKnee",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.965
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "path": "RightKnee",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": -0.3
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightKnee",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightKnee",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightKnee",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.965
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "path": "LeftLegHipJoint",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": -0.2
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftLegHipJoint",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftLegHipJoint",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "LeftLegHipJoint",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.985
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "path": "RightLegHipJoint",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": -0.2
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightLegHipJoint",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightLegHipJoint",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.0
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.0
+                }
+            ]
+        },
+        {
+            "path": "RightLegHipJoint",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.0
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.985
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,615 @@
+{
+    "name": "The description of the animation which works as it's name aswell",
+    "keyframes": [
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                2 decimals float value representing the point in time where the third keyframe should appear,
+                ...and so on
+            ],
+            "value": [
+                [
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis,
+                    3 decimals float value representing the body's hips position in the world coordinates along the Y axis,
+                    3 decimals float value representing the body's hips position in the world coordinates along the Z axis
+                ],
+                [
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis,
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis,
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis
+                ],
+                [
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis,
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis,
+                    3 decimals float value representing the body's hips position in the world coordinates along the X axis
+                ],
+                ...and so on
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                2 decimals float value representing the point in time where the first keyframe should appear,
+                2 decimals float value representing the point in time where the second keyframe should appear,
+                2 decimals float value representing the point in time where the third keyframe should appear,
+                ...and so on
+            ],
+            "value": [
+                [
+                    3 decimals float value representing the X coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the Y coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the Z coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the W coordinate being the scalar part of the quaternion
+                ],
+                [
+                    3 decimals float value representing the X coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the Y coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the Z coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the W value of a quaternion which defines de angle of rotation along the axis defined by XYZ
+                ],
+                [
+                    3 decimals float value representing the X coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the Y coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the Z coordinate of a vector repesenting an axis along which the hips can rotate,
+                    3 decimals float value representing the W value of a quaternion which defines de angle of rotation along the axis defined by XYZ
+                ],
+                ...and so on
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:RightUpLeg",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:RightLeg",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:RightFoot",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float time value with 2 decimals,
+                float time value with 2 decimals,
+                float time value with 2 decimals
+            ],
+            "value": [
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+                [
+                    float Quaternion x value with 3 decimals,
+                    float Quaternion y value with 3 decimals,
+                    float Quaternion z value with 3 decimals,
+                    float Quaternion w value with 3 decimals
+                ],
+            ]
+        }
+    ]
+}

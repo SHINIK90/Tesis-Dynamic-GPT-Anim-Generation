@@ -1,0 +1,181 @@
+{
+    "animationName": "HeadRoll",
+    "keyframes": [
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.33,
+                    "value": -0.100
+                },
+                {
+                    "time": 0.66,
+                    "value": 0.100
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.33,
+                    "value": 0.200
+                },
+                {
+                    "time": 0.66,
+                    "value": -0.200
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.33,
+                    "value": 0.100
+                },
+                {
+                    "time": 0.66,
+                    "value": -0.100
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.000
+                },
+                {
+                    "time": 0.33,
+                    "value": 0.970
+                },
+                {
+                    "time": 0.66,
+                    "value": 0.970
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.000
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.33,
+                    "value": -0.100
+                },
+                {
+                    "time": 0.66,
+                    "value": 0.100
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.33,
+                    "value": 0.200
+                },
+                {
+                    "time": 0.66,
+                    "value": -0.200
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.33,
+                    "value": 0.100
+                },
+                {
+                    "time": 0.66,
+                    "value": -0.100
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.w",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 1.000
+                },
+                {
+                    "time": 0.33,
+                    "value": 0.970
+                },
+                {
+                    "time": 0.66,
+                    "value": 0.970
+                },
+                {
+                    "time": 1.00,
+                    "value": 1.000
+                }
+            ]
+        }
+    ]
+}

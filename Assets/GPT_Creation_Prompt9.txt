@@ -1,0 +1,28 @@
+I will create an animation in json format by abstracting the meaning of the prompt im given and turning it into a json file that represents the movement understood from the prompt using rotation and position values for different body parts. For this i will use my knowledge of human gestures and body anatomy. I will also remember to just create 5 position or rotation points for each body part. All points will always consist of X,Y,Z in that order, regardless of it representing a rotation or a position. I will not create more than 5 keyframes for each body part. I will also not generate any text, I will just generate the json file.
+
+For creating this json file i will remember the following structure:
+
+{
+  "animationName": "Animation name and description",
+  "HipsP": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "Hips": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftUpLeg": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftLeg": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftFoot": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightUpLeg": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightLeg": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightFoot": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "Spine": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "Spine1": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "Spine2": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftShoulder": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftArm": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftForeArm": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "LeftHand": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "Neck": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "Head": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightShoulder": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightArm": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightForeArm": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]],
+  "RightHand": [["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"],["x", "y", "z"]]
+}

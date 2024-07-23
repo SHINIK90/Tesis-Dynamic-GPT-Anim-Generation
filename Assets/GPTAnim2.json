@@ -1,0 +1,71 @@
+{
+    "animationName": "RaiseRightArmAnimation",
+    "keyframes": [
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.300,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.600,
+                    "value": 30.0
+                },
+                {
+                    "time": 1.000,
+                    "value": 45.0
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.300,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.600,
+                    "value": 45.0
+                },
+                {
+                    "time": 1.000,
+                    "value": 90.0
+                }
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.000,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.300,
+                    "value": 0.0
+                },
+                {
+                    "time": 0.600,
+                    "value": 22.5
+                },
+                {
+                    "time": 1.000,
+                    "value": 45.0
+                }
+            ]
+        }
+    ]
+}

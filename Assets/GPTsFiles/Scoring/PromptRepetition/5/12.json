@@ -1,0 +1,785 @@
+{
+    "animationName": "StandingAndWaving",
+    "keyframes": [
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "Hips",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LowerBack",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 60.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 60.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 60.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 60.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 60.000
+                }
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.25,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.50,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.75,
+                    "value": -45.000
+                },
+                {
+                    "time": 1.00,
+                    "value": -45.000
+                }
+            ]
+        },
+        {
+            "path": "LeftScapula",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 60.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 60.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 60.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 60.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 60.000
+                }
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.25,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.50,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.75,
+                    "value": -45.000
+                },
+                {
+                    "time": 1.00,
+                    "value": -45.000
+                }
+            ]
+        },
+        {
+            "path": "RightScapula",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": -10.000
+                },
+                {
+                    "time": 0.50,
+                    "value": -20.000
+                },
+                {
+                    "time": 0.75,
+                    "value": -10.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 90.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 90.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 90.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 90.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 90.000
+                }
+            ]
+        },
+        {
+            "path": "LeftShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftElbow",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": -90.000
+                },
+                {
+                    "time": 0.50,
+                    "value": -150.000
+                },
+                {
+                    "time": 0.75,
+                    "value": -90.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 10.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 20.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 10.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "LeftWrist",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 10.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 20.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 10.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightShoulder",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightElbow",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation.x",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        },
+        {
+            "path": "RightWrist",
+            "propertyName": "m_LocalRotation.z",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.25,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 0.75,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 0.000
+                }
+            ]
+        }
+    ]
+}

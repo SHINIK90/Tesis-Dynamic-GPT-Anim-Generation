@@ -1,0 +1,134 @@
+I will create an animation in json format by abstracting the meaning of the prompt im giving and turning it into a json file that represents the movemnt understood from the prompt using rotation and position values for different body parts. For this i will use my knowledge of human gestures and body anatomy. I will also remember to just create 4 time points and 4 value points for each body part. I will not create more than 4 keyframes for each body part property. I will also not generate any text, I will just generate the json file.
+
+For creating this json file i will remember the following structure:
+
+{
+    "name": "Animation name",
+    "keyframes": [
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalPosition",
+            "time": [
+                float value with 2 decimals,
+                float value with 2 decimals,
+                float value with 2 decimals
+            ],
+            "value": [
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float value with 2 decimals,
+                float value with 2 decimals,
+                float value with 2 decimals
+            ],
+            "value": [
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+            ]
+        },
+        {
+            "path": "mixamorig:Hips/(body part to rotate)",
+            "propertyName": "m_LocalRotation",
+            "time": [
+                float value with 2 decimals,
+                float value with 2 decimals,
+                float value with 2 decimals
+            ],
+            "value": [
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+                [
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals,
+                    float value with 3 decimals
+                ],
+            ]
+        },
+        {... more body part's rotations to animate}
+    ]
+}
+
+And for the naming of different body parts i will remember this hierarchy that shows the correct names and the relationship between body parts:
+
+{
+  "mixamorig:Hips": {
+    "mixamorig:Hips/mixamorig:LeftUpLeg": {
+      "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg": {
+        "mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot": {}
+      }
+    },
+    "mixamorig:Hips/mixamorig:RightUpLeg": {
+      "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg": {
+        "mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot": {}
+      }
+    },
+    "mixamorig:Hips/mixamorig:Spine": {
+      "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1": {
+        "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2": {
+          "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder": {
+            "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm": {
+              "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm": {
+                "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand": {}
+              }
+            }
+          },
+          "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck": {
+            "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head": {}
+          },
+          "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder": {
+            "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm": {
+              "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm": {
+                "mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

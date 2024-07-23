@@ -1,0 +1,57 @@
+{
+    "animationName": "HeadTurnLeftToRight",
+    "keyframes": [
+        {
+            "path": "Neck",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": -45.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 45.000
+                },
+                {
+                    "time": 1.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 2.00,
+                    "value": -45.000
+                }
+            ]
+        },
+        {
+            "path": "Head",
+            "propertyName": "m_LocalRotation.y",
+            "curve": [
+                {
+                    "time": 0.00,
+                    "value": -20.000
+                },
+                {
+                    "time": 0.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 1.00,
+                    "value": 20.000
+                },
+                {
+                    "time": 1.50,
+                    "value": 0.000
+                },
+                {
+                    "time": 2.00,
+                    "value": -20.000
+                }
+            ]
+        }
+    ]
+}

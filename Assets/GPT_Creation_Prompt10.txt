@@ -1,0 +1,297 @@
+I will create an animation in json format by abstracting the meaning of the prompt im given and turning it into a json file that represents the movement understood from the prompt using rotation and position values for different body parts. For this i will use my knowledge of human gestures and body anatomy. I will also remember to just create 5 position or rotation points for each body part. All points will always consist of X,Y,Z in that order, regardless of it representing a rotation or a position. I will not create more than 5 keyframes for each body part. I will also not generate any text, I will just generate the json file.
+
+For creating this json file i will remember the following structure:
+
+{
+
+    "animationName": "The name and description for what this animation is about",
+
+    "HipsP": [
+
+        [
+
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the X axis in meters,
+
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Y axis in meters,
+
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Z axis in meters
+
+        ],... 5 times in total
+    ]
+    "Hips": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Hips can rotate in the x axis from 0 to 360 degrees facing fordward,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Hips can rotate in the z axis from 0 to 360 degrees fallig sideways to the left
+
+        ],... 5 times in total
+    ],
+
+    "LeftUpLeg": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the x axis from -60 to 50 degrees where -60 would be leg raised fordward,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the z axis from -45 to 50 degrees where 50 would be opening the leg sideways as much as possible
+
+        ],... 5 times in total
+    ],
+
+    "LeftLeg": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can not rotate in the y axis meaning it stays at 0 degrees,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can not rotate in the z axis meaning it stays at 0 degrees
+
+        ],... 5 times in total
+
+    ],
+
+    "LeftFoot": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot inward,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Leg Hip Joint can rotate in the z axis from -10 to 30 degrees where 30 would be the foot rotating inward
+
+        ],... 5 times in total
+
+    ],
+
+    "RightUpLeg": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee outwards,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 210 would be opening the leg sideways as much as possible
+
+        ],... 5 times in total
+
+    ],
+
+    "RightLeg": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees
+
+        ],... 5 times in total
+
+    ],
+
+    "RightFoot": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Foot can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot outward,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Foot can rotate in the z axis from 10 to -30 degrees where -30 would be the foot rotating inward
+
+        ],... 5 times in total
+
+    ],
+
+    "Spine": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Lower Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left
+
+        ],... 5 times in total
+
+    ],
+
+    "Spine1": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Middle Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left
+
+        ],... 5 times in total
+
+    ],
+
+    "Spine2": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left
+
+        ],... 5 times in total
+
+    ],
+
+    "LeftShoulder": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Scapula can not rotate in the z axis
+
+        ],... 5 times in total
+
+    ],
+
+    "LeftArm": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Shoulder can not rotate in the z axis
+
+        ],... 5 times in total
+
+    ],
+
+    "LeftForeArm": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left elbow can not rotate in the x axis,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent
+
+        ],... 5 times in total
+
+    ],
+
+    "LeftHand": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Hand can not rotate in the y axis,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Hand can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side
+
+        ],... 5 times in total
+
+    ],
+
+    "Neck": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left
+
+        ],... 5 times in total
+
+    ],
+
+    "Head": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left
+
+        ],... 5 times in total
+
+    ],
+
+    "RightShoulder": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Shoulder can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Shoulder can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Shoulder can not rotate in the z axis
+
+        ],... 5 times in total
+
+    ],
+
+    "RightArm": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right Scapula can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right Scapula can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right Scapula can not rotate in the z axis
+
+        ],... 5 times in total
+
+    ],
+
+    "RightForeArm": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Right elbow can not rotate in the x axis,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Right elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Right elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent
+
+        ],... 5 times in total
+
+    ],
+
+    "RightHand": [
+
+        [
+
+            Integer value representing the X coordinate of a Rotation in EulerAngles concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+
+            Integer value representing the Y coordinate of a Rotation in EulerAngles concidering Left Hand can not rotate in the y axis,
+
+            Integer value representing the Z coordinate of a Rotation in EulerAngles concidering Left Hand can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side
+
+        ],... 5 times in total
+    ]
+}
