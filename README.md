@@ -4,14 +4,16 @@
 This project involves the generation of 3D animations using a custom GPT-4 model. The aim is to create realistic animations for humanoid Non-Player Characters (NPCs) based on textual descriptions. This repository contains scripts for converting animation data to and from JSON format, managing animation batches, and testing the generated animations in Unity.
 
 ##Features
-
 All animations in this project and the code for translating animation objects to JSON files are to be used with the RIG found in Assets/FBX. To use a different RIG you would need to update the BodyPartsToMixamo and propertiesNames objects in the scripts to the new RIG body part names. You could also increase or reduce the body parts available by modifying this objects.
 
-This project uses mainly 2 scripts, an editor one and a runtime one
+This project uses mainly 2 scripts, an editor one and a runtime one:
+
 -Runtime: LoadAnimFromJson.cs is located in Assets/Scripts. By dragging the RIG to the scene and creating an object for it you can add this script to the object. You must also add an Animator component and add the RigAnimatorController asset to the Animator, which you will find in Assets/FBX along with the RIG itself. With this script you can load a JSON animation to a RIG in runtime to be played and viewed. For this you will find a text input to specify the JSON path, you will also find a dropdown to select the version this file utilices. This versions are detailed below.
 
+
 -Editor: AnimtionLoaderAndSaver.cs is located in Assets/Editor. This script generates an extra window that you can drag to your workspace in Unity. To acheve this go to the top left corner and search for the window tab, then look for "My Editor Window" or "GPT Anim Editor Window". In this window you will find the following functionality:
-	*Single Anim to JSON generation: Select a file name and a version to generate a JSON animation from an existing animationClip.
+	
+ 	*Single Anim to JSON generation: Select a file name and a version to generate a JSON animation from an existing animationClip.
 	*Single JSON anim scoring: Select the version this JSON uses and it's path to calculate it's score.
 	*Generate all versions dataset: This converts all example animations to JSON files. For each version it creates a folder in Assets/JSON-Datasets with the corresponding name. In this folder you 		will find the output animations in another folder and then another folder with files compressing this JSON animations into 2MB batches.
 	*Quaternion to Euler angles tester: This is a tool that allows you to enter the Quaternion vector and see wht it's corresponding angle in Unity would be. This uses Unity's native functions to 		handle Quaternions (Vector3 eulerAngles = quaternion.eulerAngles)
@@ -21,7 +23,9 @@ This project uses mainly 2 scripts, an editor one and a runtime one
 
 ##Version types:
 -Full: This version replicates the way animations are stored natively in Unity, that means using quaternions and animating each axis separately as a different animation curve for the same body part.
+
 -Compressed: Using vectors, this version reduces space used by joining together all axis into float arrays. Instead of using time-value pairs, parallel time-vector lists are used.
+
 -Tokens: Time values are eliminated by sampling a 1 second animation into a given and equally separated amount of keyframes (sampling number)
 
 The following versions use the same structure as the previous ones but replacing Quaternions with Euler angles
