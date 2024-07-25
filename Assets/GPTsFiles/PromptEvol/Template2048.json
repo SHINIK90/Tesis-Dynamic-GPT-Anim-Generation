@@ -1,0 +1,672 @@
+{
+    "animationName": "The name and description for what this animation is about",
+    "HipsP": [
+        [
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the X axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Y axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Z axis in meters
+        ],
+        [
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the X axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Y axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Z axis in meters
+        ],
+        [
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the X axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Y axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Z axis in meters
+        ],
+        [
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the X axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Y axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Z axis in meters
+        ],
+        [
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the X axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Y axis in meters,
+            3 decimals float value ranging 0-1 representing the body's hips position in the world coordinates along the Z axis in meters
+        ]
+    ],
+    "Hips": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Hips can rotate in the x axis from 0 to 360 degrees facing fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Hips can rotate in the z axis from 0 to 360 degrees fallig sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Hips can rotate in the x axis from 0 to 360 degrees facing fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Hips can rotate in the z axis from 0 to 360 degrees fallig sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Hips can rotate in the x axis from 0 to 360 degrees facing fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Hips can rotate in the z axis from 0 to 360 degrees fallig sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Hips can rotate in the x axis from 0 to 360 degrees facing fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Hips can rotate in the z axis from 0 to 360 degrees fallig sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Hips can rotate in the x axis from 0 to 360 degrees facing fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Hips can rotate in the y axis from 0 to 360 degrees turning to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Hips can rotate in the z axis from 0 to 360 degrees fallig sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "LeftUpLeg": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from -45 to 50 degrees where 50 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 135 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 135 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 135 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee inwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 135 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "LeftLeg": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "LeftFoot": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot inward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from -10 to 30 degrees where 30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot inward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from -10 to 30 degrees where 30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot inward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from -10 to 30 degrees where 30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot inward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from -10 to 30 degrees where 30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot inward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Leg Hip Joint can rotate in the z axis from -10 to 30 degrees where 30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightUpLeg": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee outwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 210 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee outwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 210 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee outwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 210 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee outwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 210 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the x axis from 45 to -115 degrees where -115 would be leg raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the y axis from -45 to 45 degrees where 45 would turn the knee outwards,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Leg Hip Joint can rotate in the z axis from 210 to 135 degrees where 210 would be opening the leg sideways as much as possible,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightLeg": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Knee can rotate in the x axis from 0 to -150 degrees where -150 would be knee flexed completely,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Knee can not rotate in the y axis meaning it stays at 0 degrees,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Knee can not rotate in the z axis meaning it stays at 0 degrees,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightFoot": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Foot can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot outward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Foot can rotate in the z axis from 10 to -30 degrees where -30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Foot can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot outward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Foot can rotate in the z axis from 10 to -30 degrees where -30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Foot can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot outward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Foot can rotate in the z axis from 10 to -30 degrees where -30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Foot can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot outward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Foot can rotate in the z axis from 10 to -30 degrees where -30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Foot can rotate in the x axis from 20 to 80 degrees where 80 is as high as the foot can be raised,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Foot can rotate in the y axis from -30 to 30 degrees where 0 is poiting fordward and -30 points the foot outward,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Foot can rotate in the z axis from 10 to -30 degrees where -30 would be the foot rotating inward,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "Spine": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Lower Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Lower Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Lower Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Lower Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Lower Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Lower Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Lower Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+        
+    ],
+    "Spine1": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Middle Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Middle Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Middle Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Middle Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Middle Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Middle Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Middle Back can rotate in the z axis from -15 to -15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "Spine2": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Upper Back can rotate in the x axis from -20 to 20 degrees where 20 would be bending fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Upper Back can rotate in the y axis from -15 to 15 degrees where 15 is turning slightly to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Upper Back can rotate in the z axis from -15 to 15 degrees where 15 would be slightly bending sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+        
+    ],
+    "LeftShoulder": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Scapula can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Scapula can rotate in the y axis from -90 to -45 degrees where -45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "LeftArm": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Shoulder can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Shoulder can rotate in the y axis from -60 to 90 degrees where -60 would have the biceps pointed towards the ground and 90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "LeftForeArm": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left elbow can rotate in the y axis from 0 to 90 degrees where 0 would be turn the fore arm to a thumbs down position and 90 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left elbow can rotate in the z axis from 0 to -150 degrees where 0 would be the fore arm straight and -150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "LeftHand": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where -30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "Neck": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Neck can rotate in the x axis from -10 to 20 degrees where 20 would be bending the neck all the way fordward,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Neck can rotate in the y axis from -50 to 50 degrees where 50 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Neck can rotate in the z axis from -30 to 30 degrees where 30 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "Head": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Head can rotate in the x axis from -30 to 30 degrees where 30 would be bending the Head all the way fordward is if trying to touch the chin to the chest,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Head can rotate in the y axis from -20 to 20 degrees where 20 is turning the neck along a vertical axis to the right,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Head can rotate in the z axis from -10 to 10 degrees where 10 would be rotating the neck sideways to the left,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightShoulder": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Shoulder can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Shoulder can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Shoulder can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Shoulder can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Shoulder can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Shoulder can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Shoulder can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Shoulder can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Shoulder can rotate in the x axis from 125 to 60 degrees where 125 would be the arm at the side and 90 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Shoulder can rotate in the y axis from 90 to 45 degrees where 45 would be the shoulder pushed fordward as much as possible,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Shoulder can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightArm": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Scapula can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Scapula can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Scapula can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Scapula can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Scapula can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Scapula can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Scapula can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Scapula can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right Scapula can rotate in the x axis from 70 to 0 degrees where 70 would be the arm at the side and 0 the arm in T pose,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right Scapula can rotate in the y axis from 60 to -90 degrees where 60 would have the biceps pointed towards the ground and -90 to the sky,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right Scapula can not rotate in the z axis,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightForeArm": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Right elbow can not rotate in the x axis,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Right elbow can rotate in the y axis from 0 to 90 degrees where 90 would be turn the fore arm to a thumbs down position and 0 to thumbs up,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Right elbow can rotate in the z axis from 0 to 150 degrees where 0 would be the fore arm straight and 150 would be fully bent,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ],
+    "RightHand": [
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ],
+        [
+            3 decimals float value representing the X coordinate of a Quaternion concidering Left Hand can rotate in the x axis from -60 to 60 degrees where -60 would rotate the hand all the way up as a stop sign and 60 would rotate it all the way down,
+            3 decimals float value representing the Y coordinate of a Quaternion concidering Left Hand can not rotate in the y axis,
+            3 decimals float value representing the Z coordinate of a Quaternion concidering Left Hand can rotate in the z axis from -30 to 30 degrees where 30 would be turning the hand sideways to the thumbs side,
+            3 decimals float value representing the W coordinate being the scalar part of the quaternion
+        ]
+    ]
+}

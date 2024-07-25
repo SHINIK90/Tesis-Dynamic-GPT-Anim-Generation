@@ -164,13 +164,14 @@ public class GptAnimEditorWindow : EditorWindow{
     Dictionary<Options, string> versionPaths;
     // This will appear as a dropdown in the Unity Editor
     public Options JsonFormatVersion;
-
+    public Options SingleJsonVersion;
     private AnimationClip animationClip;
     private int SamplingNumber;
     private int VersionsPromptsNumber;
     private int RepetitionPromptsNumber;
     private int DifferentPromptsNumber;
     private string GeneratedJsonPath;
+    private string SingleJsonName;
     // private bool DATASET_LOADED = false;
     private StringBuilder stringBuilder = new StringBuilder();
     // private const int MaxSizeBytes = 1.8 * 1024 * 1024; // 9MB in bytes
@@ -253,119 +254,79 @@ public class GptAnimEditorWindow : EditorWindow{
     }
     void OnGUI(){       //Editor Window Management
 
-        GUILayout.Label("Select an Animation Clip:", EditorStyles.boldLabel);
+        GUILayout.Label("• Select an Animation Clip and version to convert to JSON:", EditorStyles.boldLabel);
+        SingleJsonVersion = (Options)EditorGUILayout.EnumPopup("Select Option", SingleJsonVersion);
+        SingleJsonName = EditorGUILayout.TextField("JSON file name (no .json)", SingleJsonName);
         animationClip = EditorGUILayout.ObjectField(animationClip, typeof(AnimationClip), false) as AnimationClip;
-        if (GUILayout.Button("Run Function")){
+        if (GUILayout.Button("Convert")){
             if (animationClip != null)
             {
-                RunFunction();
+                RunFunction(SingleJsonVersion, SingleJsonName);
             }
             else
             {
                 Debug.LogWarning("Please select an Animation Clip first.");
             }
         }
+        
+        // if (GUILayout.Button("Load Dataset")){
+        //     List<AnimationClip> AnimsDataset = LoadAllFBXAnimations();
+        //     if (AnimsDataset != null)
+        //     {
+        //         int fileNumber = 1;
+        //         Debug.Log("Generating Json Anims");
+        //         foreach(AnimationClip anim in AnimsDataset){
+        //             string jsonFilePath = Application.dataPath + "/JsonAnims/"+anim.name+".json";
+        //             string file = SaveAnimationClipToJsonCompressedVectors(anim, jsonFilePath);
+        //             int sizeOfCurrentString = Encoding.UTF8.GetByteCount(file);
+        //             if(fileCounter == 0){
+        //                 stringBuilder.Append(file);
+        //                 fileCounter += sizeOfCurrentString;
+        //             }else if(fileCounter < MaxSizeBytes && fileCounter != 0){
+        //                 stringBuilder.Append(","+file);
+        //                 fileCounter += sizeOfCurrentString;
+        //             }else{
+        //                 File.WriteAllText($"{Application.dataPath}/CompressedAnims/Examples_{fileNumber}.json", stringBuilder.ToString());
+        //                 stringBuilder.Clear();
+        //                 fileCounter = 0;
+        //                 fileNumber++;
+        //             }
+        //             Debug.Log("Generating: " + anim.name);
+        //         }
+        //     }
+        //     else
+        //     {
+        //         Debug.LogWarning("Error loading dataset");
+        //     }
+        // }
+        // SamplingNumber = EditorGUILayout.IntField("Sampling Number", SamplingNumber);
+        // if (GUILayout.Button("Load 2048 Compressed Dataset") && SamplingNumber != 0){
+        //     List<AnimationClip> AnimsDataset = LoadAllFBXAnimations();
+        //     if (AnimsDataset != null){
+        //         foreach(AnimationClip anim in AnimsDataset){
+        //             if(anim.length > 1.0f && anim.length < 1.2f){
+        //                 string jsonFilePath = Application.dataPath + "/JsonAnims6-2048-DEG/"+anim.name+".json";
+        //                 string file = SaveAnimationClipToJson2048TokensDEG(anim, jsonFilePath, SamplingNumber);
+        //             }
+        //         }
+        //     }
+        // }else{
+        //     Debug.LogWarning("No sampling value set, it must be larger than 1");
+        // }
 
-        if (GUILayout.Button("Load Dataset")){
-            List<AnimationClip> AnimsDataset = LoadAllFBXAnimations();
-            if (AnimsDataset != null)
-            {
-                int fileNumber = 1;
-                Debug.Log("Generating Json Anims");
-                foreach(AnimationClip anim in AnimsDataset){
-                    string jsonFilePath = Application.dataPath + "/JsonAnims3/"+anim.name+".json";
-                    string file = SaveAnimationClipToJsonCompressedVectors(anim, jsonFilePath);
-                    int sizeOfCurrentString = Encoding.UTF8.GetByteCount(file);
-                    if(fileCounter == 0){
-                        stringBuilder.Append(file);
-                        fileCounter += sizeOfCurrentString;
-                    }else if(fileCounter < MaxSizeBytes && fileCounter != 0){
-                        stringBuilder.Append(","+file);
-                        fileCounter += sizeOfCurrentString;
-                    }else{
-                        File.WriteAllText($"{Application.dataPath}/CompressedAnims/Examples_{fileNumber}.json", stringBuilder.ToString());
-                        stringBuilder.Clear();
-                        fileCounter = 0;
-                        fileNumber++;
-                    }
-                    Debug.Log("Generating: " + anim.name);
-                }
-            }
-            else
-            {
-                Debug.LogWarning("Error loading dataset");
-            }
-        }
-        SamplingNumber = EditorGUILayout.IntField("Sampling Number", SamplingNumber);
-        if (GUILayout.Button("Load 2048 Compressed Dataset") && SamplingNumber != 0){
-            List<AnimationClip> AnimsDataset = LoadAllFBXAnimations();
-            if (AnimsDataset != null){
-                foreach(AnimationClip anim in AnimsDataset){
-                    if(anim.length > 1.0f && anim.length < 1.2f){
-                        string jsonFilePath = Application.dataPath + "/JsonAnims6-2048-DEG/"+anim.name+".json";
-                        string file = SaveAnimationClipToJson2048TokensDEG(anim, jsonFilePath, SamplingNumber);
-                    }
-                }
-            }
-        }else{
-            Debug.LogWarning("No sampling value set, it must be larger than 1");
-        }
-
-        GUILayout.Label("Select a Json and Format Version", EditorStyles.boldLabel);
-        RigRoot = EditorGUILayout.ObjectField("Rig Root", RigRoot, typeof(Transform), true) as Transform;
+        GUILayout.Label("• Select a Json and Format Version to Score", EditorStyles.boldLabel);
         JsonFormatVersion = (Options)EditorGUILayout.EnumPopup("Select Option", JsonFormatVersion);
-        GeneratedJsonPath = EditorGUILayout.TextField("Generated Json Path", GeneratedJsonPath);
+        GeneratedJsonPath = EditorGUILayout.TextField("Json to evaluate Path", GeneratedJsonPath);
         if (GUILayout.Button("Get Json Anim Score") && GeneratedJsonPath != ""){
             string dataAsJson = File.ReadAllText(Application.dataPath + "/" + GeneratedJsonPath);
             AnimationClip clip = new AnimationClip();
             GetScoreFromJson(GeneratedJsonPath, JsonFormatVersion);
-            // switch(JsonFormatVersion){
-            //     case Options.Full:
-            //         AnimationDataJSON animationData = JsonConvert.DeserializeObject<AnimationDataJSON>(dataAsJson);
-            //         Debug.Log(JsonConvert.SerializeObject(animationData));
-            //         clip = CreateAnimationClip(animationData);
-            //         Debug.Log("Score for: " + clip.name + " is = " + CalculateAnimationScore2(clip));
-            //         break;
-            //     case Options.Compressed:
-            //         AnimationDataCompJSON animationDataComp = JsonConvert.DeserializeObject<AnimationDataCompJSON>(dataAsJson);
-            //         Debug.Log(JsonConvert.SerializeObject(animationDataComp));
-            //         clip = CreateAnimationClipComp(animationDataComp);
-            //         Debug.Log("Score for: " + clip.name + " is = " + CalculateAnimationScore2(clip));
-            //         break;
-            //     case Options.Tokens:
-            //         AnimationDataComp2048JSON animationData2048 = JsonConvert.DeserializeObject<AnimationDataComp2048JSON>(dataAsJson);
-            //         Debug.Log(dataAsJson);
-            //         Debug.Log(JsonConvert.SerializeObject(animationData2048));
-            //         clip = CreateAnimationClipComp2048(animationData2048);
-            //         Debug.Log("Score for: " + clip.name + " is = " + CalculateAnimationScore2(clip));
-            //         break;
-            //     case Options.FullDEG:
-            //         AnimationDataJSON animationDataDEG = JsonConvert.DeserializeObject<AnimationDataJSON>(dataAsJson);
-            //         Debug.Log(JsonConvert.SerializeObject(animationDataDEG));
-            //         clip = CreateAnimationClipDEG(animationDataDEG);
-            //         Debug.Log("Score for: " + clip.name + " is = " + CalculateAnimationScore2(clip));
-            //         break;
-            //     case Options.CompressedDEG:
-            //         AnimationDataCompJSON animationDataCompDEG = JsonConvert.DeserializeObject<AnimationDataCompJSON>(dataAsJson);
-            //         Debug.Log(JsonConvert.SerializeObject(animationDataCompDEG));
-            //         clip = CreateAnimationClipCompDEG(animationDataCompDEG);
-            //         Debug.Log("Score for: " + clip.name + " is = " + CalculateAnimationScore2(clip));
-            //         break;
-            //     case Options.TokensDEG:
-            //         AnimationDataComp2048JSON animationData2048DEG = JsonConvert.DeserializeObject<AnimationDataComp2048JSON>(dataAsJson);
-            //         Debug.Log(JsonConvert.SerializeObject(animationData2048DEG));
-            //         clip = CreateAnimationClipComp2048DEG(animationData2048DEG);
-            //         Debug.Log("Score for: " + clip.name + " is = " + CalculateAnimationScore2(clip));
-            //         break;
-            //     default:
-            //         break;
-            // }
         }else{
             Debug.LogWarning("No data path set");
         }
 
-        GUILayout.Label("Generate All Versions Datasets", EditorStyles.boldLabel);
-        SamplingNumber = EditorGUILayout.IntField("Sampling Number", SamplingNumber);
+        GUILayout.Label("• Generate All Versions Datasets", EditorStyles.boldLabel);
+        SamplingNumber = EditorGUILayout.IntField("Sampling Number (min 2)", SamplingNumber);
         if (GUILayout.Button("Start Dataset Generation") && SamplingNumber != 0){
             List<AnimationClip> AnimsDataset = LoadAllFBXAnimations();
             if (AnimsDataset != null){
@@ -490,7 +451,7 @@ public class GptAnimEditorWindow : EditorWindow{
             Debug.LogWarning("No sampling value set, it must be larger than 1");
         }
 
-        GUILayout.Label("Enter Quaternion Values", EditorStyles.boldLabel);
+        GUILayout.Label("• Enter Quaternion Values to test conversion", EditorStyles.boldLabel);
         // Input fields for quaternion components
         w = EditorGUILayout.FloatField("W", w);
         x = EditorGUILayout.FloatField("X", x);
@@ -503,8 +464,9 @@ public class GptAnimEditorWindow : EditorWindow{
         }
 
         // Generate Scores for all formats
+        GUILayout.Label("• Generate scores CSV for all versions", EditorStyles.boldLabel);
         VersionsPromptsNumber = EditorGUILayout.IntField("Versions Prompts Number", VersionsPromptsNumber);
-        if (GUILayout.Button("Generate Scores CSV to path") && VersionsPromptsNumber != 0){
+        if (GUILayout.Button("Generate") && VersionsPromptsNumber != 0){
             StringBuilder csvContent = new StringBuilder();
             csvContent.AppendLine("Animation,Full,Compressed,Tokens,FullDEG,CompressedDEG,TokensDEG");
 
@@ -525,11 +487,16 @@ public class GptAnimEditorWindow : EditorWindow{
         }
 
         // Generate scores for winner format
-        RepetitionPromptsNumber = EditorGUILayout.IntField("Number of repetitions per prompt", RepetitionPromptsNumber);
-        DifferentPromptsNumber = EditorGUILayout.IntField("Number of diferent prompts", DifferentPromptsNumber);
+        GUILayout.Label("• Generate scores CSV for FullDEG", EditorStyles.boldLabel);
+        RepetitionPromptsNumber = EditorGUILayout.IntField("# Repetitions per prompt", RepetitionPromptsNumber);
+        DifferentPromptsNumber = EditorGUILayout.IntField("# Diferent prompts", DifferentPromptsNumber);
         if (GUILayout.Button("Generate FullDEG Scores CSV to path") && RepetitionPromptsNumber != 0){
             StringBuilder csvContent = new StringBuilder();
-            csvContent.AppendLine("Repetition,1,2,3,4,5");
+            string labels = "Repetition";
+            for(int i = 1; i<=DifferentPromptsNumber; i++){
+                labels += "," + i;
+            }
+            csvContent.AppendLine(labels);
 
             for(int i = 1; i<=RepetitionPromptsNumber; i++){
                 string line = i.ToString();
@@ -549,7 +516,7 @@ public class GptAnimEditorWindow : EditorWindow{
         }
 
         // Angle in raange testing
-        GUILayout.Label("Angle Range Checker", EditorStyles.boldLabel);
+        GUILayout.Label("• Angle Range Checker", EditorStyles.boldLabel);
         minRange = EditorGUILayout.FloatField("Min Range", minRange);
         maxRange = EditorGUILayout.FloatField("Max Range", maxRange);
         angle = EditorGUILayout.Slider("Angle", angle, 0f, 360f);
@@ -559,14 +526,39 @@ public class GptAnimEditorWindow : EditorWindow{
         }
         GUILayout.Label(result, EditorStyles.label);
     }
-    void RunFunction(){ //test anim to JSON generation with a single file, selecting the desired version
-        string jsonFilePath = Application.dataPath + "/YourAnimationClip4.json";
-        SaveAnimationClipToJson(animationClip, jsonFilePath);
-        // SaveAnimationClipToJsonCompressedVectors(animationClip, jsonFilePath);
-        // SaveAnimationClipToJson2048Tokens(animationClip, jsonFilePath, 2);   //sampling value should be 2 or higher to see at minimum one change in animation
-        // SaveAnimationClipToJsonCompressedVectorsDEG(animationClip, jsonFilePath);
-        // SaveAnimationClipToJson2048TokensDEG(animationClip, jsonFilePath, 2);   //sampling value should be 2 or higher to see at minimum one change in animation
+    void RunFunction(Options version, string jsonName){ //test anim to JSON generation with a single file, selecting the desired version
+        string jsonFilePath = Application.dataPath + "/" + jsonName + ".json";
+
         Debug.Log("Function is running with Animation Clip: " + animationClip.name);
+
+        switch(version){
+            case Options.Full:
+                SaveAnimationClipToJson(animationClip, jsonFilePath);
+                Debug.Log("JSON Anim generated: " + jsonFilePath + "  || Format:" + version);
+                break;
+            case Options.Compressed:
+                SaveAnimationClipToJsonCompressedVectors(animationClip, jsonFilePath);
+                Debug.Log("JSON Anim generated: " + jsonFilePath + "  || Format:" + version);
+                break;
+            case Options.Tokens:
+                SaveAnimationClipToJson2048Tokens(animationClip, jsonFilePath, 5);   //sampling value should be 2 or higher to see at minimum one change in animation
+                Debug.Log("JSON Anim generated: " + jsonFilePath + "  || Format:" + version);
+                break;
+            case Options.FullDEG:
+                SaveAnimationClipToJsonDEG(animationClip, jsonFilePath);
+                Debug.Log("JSON Anim generated: " + jsonFilePath + "  || Format:" + version);
+                break;
+            case Options.CompressedDEG:
+                SaveAnimationClipToJsonCompressedVectorsDEG(animationClip, jsonFilePath);
+                Debug.Log("JSON Anim generated: " + jsonFilePath + "  || Format:" + version);
+                break;
+            case Options.TokensDEG:
+                SaveAnimationClipToJson2048TokensDEG(animationClip, jsonFilePath, 5);   //sampling value should be 2 or higher to see at minimum one change in animation
+                Debug.Log("JSON Anim generated: " + jsonFilePath + "  || Format:" + version);
+                break;
+            default:
+                break;
+        }
     }
     public static bool IsAngleInRange(float angle, float min, float max)
     {
